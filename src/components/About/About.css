@@ -1,0 +1,74 @@
+.container {
+  padding: 2em 0 0 0;
+}
+
+.about-container h3 {
+  color: #B8CB53;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.about-container h4 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.about-container h3 span{
+  color: #EEA649;
+}
+
+.about-container .about-card {
+  position: relative;
+  text-align: justify;
+  width: 100%;
+  padding: 40px;
+  margin: 0.5rem 0 2rem 0;
+  border-radius: 20px;
+  color: white;
+}
+
+.about-container #what {
+  color:#EEA649;
+}
+
+.about-container #what .about-card {
+  background-color: #B8CB53;
+}
+
+.about-container #mision {
+  color: #B8CB53;
+}
+
+.about-container #mision .about-card {
+  background-color: #EEA649;
+}
+
+.about-container #vision {
+  color: #023F4B;
+}
+
+.about-container #vision .about-card {
+  background-color: #C1D8ED;
+}
+
+.about-container #students {
+  color: #EEA649;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container #students .about-card {
+  background-color: #C1D8ED;
+  margin: 0 0 2rem 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .about-container #students {
+      text-align: left;
+  }
+} 

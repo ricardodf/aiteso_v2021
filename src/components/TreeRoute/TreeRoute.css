@@ -1,0 +1,38 @@
+.tree-route-title  {
+  color: #B8CB53;
+  text-align: left;
+}
+
+.tree-route-subtitle {
+  color: #EEA649;
+  text-transform: uppercase;
+}
+
+.route-instruct-container {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.route-instruct-container p {
+  text-align: center;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.route-instruct-container .search-btn {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+  transition: 0.5s;
+  background-color: #023F4B;
+}

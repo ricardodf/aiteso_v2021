@@ -1,0 +1,58 @@
+.spedashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 2em 2em 2em 2em;
+  flex-basis: 70%;
+}
+
+.spedashboard-title {
+  color: #B8CB53;
+  text-align: right;
+}
+
+.spedashboard-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.spedashboard-noselect {
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+  color: gray
+}
+
+.pagination {
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  cursor: pointer;
+  margin-top: 2em;
+}
+
+.pagination a {
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #00697C;
+  color: black;
+  transition: 0.5s;
+}
+
+.pagination__link {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pagination__link--active a {
+  color: white !important;
+  background: #00697C;
+}
+
+.pagination__link--disabled a {
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
+}

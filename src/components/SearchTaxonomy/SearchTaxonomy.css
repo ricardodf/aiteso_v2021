@@ -1,0 +1,6 @@
+.spe-container{
+  font-family: 'Quicksand', sans-serif;
+
+  display: flex;
+  justify-content: flex-start;
+}

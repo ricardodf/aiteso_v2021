@@ -1,0 +1,108 @@
+h3 {
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #023F4B;
+}
+
+h4 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.container {
+  font-family: 'Quicksand', sans-serif;
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.home-card {
+  position: relative;
+  text-align: justify;
+  width: 100%;
+  padding: 40px;
+  margin: 2rem 0;
+  border-radius: 20px;
+  color: white;
+}
+
+.description-container .home-card {
+  background-color: #C1D8ED;
+}
+
+.description-container .home-card h4 {
+  text-transform: uppercase;
+}
+
+h3.search-title {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+}
+
+.search-op-container {
+  text-align: center;
+}
+
+.search-op-container:nth-child(1) h3 {
+  color: #B8CB53;
+}
+
+.search-op-container:nth-child(1) .home-card {
+  background-color: #B8CB53;
+}
+
+.search-op-container:nth-child(2) .home-card {
+  background-color: #023F4B;
+}
+
+.search-op-container .home-card .search-btn {
+  position: absolute;
+  width: 200px;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 10px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.search-op-container .home-card a .search-btn  {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.4);
+}
+
+.search-op-container:nth-child(1) .home-card .search-btn {
+  background-color: #023F4B;
+}
+
+.search-op-container:nth-child(1) .home-card .search-btn:hover {
+  background-color: #011c22;
+}
+
+.search-op-container:nth-child(2) .home-card .search-btn {
+  background-color: #B8CB53;
+}
+
+.search-op-container:nth-child(2) .home-card .search-btn:hover {
+  background-color: #97a842;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .search-op-container .home-card {
+      margin-bottom: 4.5rem;
+  }
+} 

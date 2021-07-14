@@ -1,0 +1,12 @@
+.wlm-container {
+  height: 100%;
+  background-color: #023F4B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wlm-container .wlm__img {
+  height: 700px;
+  width: 700px;
+}

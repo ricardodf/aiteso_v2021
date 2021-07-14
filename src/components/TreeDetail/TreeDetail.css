@@ -1,0 +1,97 @@
+.tree-detail-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  min-height: 90vh;
+}
+
+.tree-detail-title {
+  color: #B8CB53;
+  text-align: left;
+}
+
+.tree-detail-container .card {
+  padding: 40px;
+  margin: 2rem 0;
+  border-radius: 20px;
+}
+
+.img-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  background-color: #EEA649;
+  height: min-content;
+  width: 70%;
+}
+
+.tree-detail-container .img-container-wrapper p {
+  width: 600px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.detail-container-wrappper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tree-detail-container .detail-container {
+  margin: -2rem 0 2rem 0;
+  width: 100%;
+  border-color:#f5f9fc ;
+  background-color: #f5f9fc;
+  text-align: justify;
+}
+
+.detail-container p {
+ text-transform: uppercase;
+ color: #023F4B;
+ font-size: 1rem;
+ letter-spacing: 2px;
+ display: flex;
+ align-items: center;
+}
+
+.detail-container p:nth-child(2n) {
+  text-transform: uppercase;
+  color: #B8CB53;
+  font-size: 1rem;
+  letter-spacing: 2px;
+ }
+
+ .tree-detail-container .search-btn {
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+  transition: 0.5s;
+  background-color: #023F4B;
+}
+
+.tree-detail-container a .search-btn  {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.tree-icon {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .tree-detail-container .detail-container {
+    margin-top: 2rem;
+  }
+} 
